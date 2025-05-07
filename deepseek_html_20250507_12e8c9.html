@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beauty Kind Foundation - Free Pest Control Services</title>
+    <style>
+        :root {
+            --primary: #4a7c59;
+            --secondary: #f8f1e5;
+            --accent: #d8a48f;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--secondary);
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        nav {
+            background-color: var(--primary);
+            padding: 0.5rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1580757468214-73e5fd6a2e9a');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        
+        .mission {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .service-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        .ein {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">The Beauty Kind Foundation</div>
+        <div>Providing Free Pest Control Services Across the United States</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Free Pest Control for Those in Need</h1>
+            <p>Helping communities across America live pest-free through our charitable services</p>
+            <a href="#contact" class="btn">Request Assistance</a>
+        </div>
+    </section>
+    
+    <div class="container">
+        <section id="about" class="mission">
+            <h2>Our Mission</h2>
+            <p>The Beauty Kind Foundation is a 501(c)(3) non-profit organization dedicated to providing free pest control services to low-income families, elderly residents, and other vulnerable populations throughout the United States.</p>
+            <p>Founded in 2015, we believe everyone deserves to live in a safe, healthy environment free from pests that can cause health problems and property damage.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Residential Pest Control</h3>
+                    <p>Free treatment for common household pests including rodents, cockroaches, bed bugs, ants, and more for qualifying households.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Community Education</h3>
+                    <p>Workshops and materials on pest prevention and safe, environmentally-friendly pest management practices.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Emergency Services</h3>
+                    <p>Rapid response for severe infestations that pose immediate health risks to vulnerable populations.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>To request services or learn more about our programs:</p>
+            <p>Email: info@beautykindfoundation.org</p>
+            <p>Phone: (800) 555-7890</p>
+            <p>Mailing Address: PO Box 12345, Anytown, USA 12345</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>The Beauty Kind Foundation is a 501(c)(3) non-profit organization</p>
+            <p class="ein">EIN: 47-1864930</p>
+            <p>© 2023 The Beauty Kind Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
